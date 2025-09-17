@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box {
+    position: relative;
+    height: 5rem;
+    width: 30rem;
+    overflow: hidden;
+    transition: 1s;
+    padding-left: 1.50rem;
+    font-weight: 700;
+    background-color: #ffffff;
+    padding-top: 1rem;
+    color: #a2d041;
+}
+
+.box p {
+    width: 80%;
+    margin-top: 14px;
+
+}
+
+.box #para1 {
+    visibility: hidden;
+}
+
+.box #para2 {
+    visibility: hidden;
+}
+
+.box #para3 {
+    visibility: hidden;
+}
+
+.box img {
+    height: 2rem;
+    position: absolute;
+    right: 2rem;
+    top: 1.50rem;
+    cursor: pointer;
+}
